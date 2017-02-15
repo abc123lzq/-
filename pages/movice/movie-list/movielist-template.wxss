@@ -1,0 +1,34 @@
+@import "../movie/movie-template.wxss";
+.movelist-content{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rpx;
+
+}
+.movielist-herder{
+    padding: 30rpx 20rpx 22rpx;
+    font-size: 22rpx;
+}
+.ml-hot{
+    float: left;
+}
+.more{
+    float: right;
+    margin-right: 13rpx;
+}
+.more-text{
+    vertical-align: middle;
+    margin-right: 10rpx;
+    color: #1f4ba5;
+}
+.more-img{
+    width: 19rpx;
+    height: 16rpx;
+    vertical-align: middle;
+
+}
+.movielist-conteter{
+    display: flex;
+    flex-direction: row;
+}

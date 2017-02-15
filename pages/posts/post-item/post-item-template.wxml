@@ -1,0 +1,16 @@
+<template name="postItem">
+    <view class=" post-content ">
+      <view class="nr-content ">
+        <image wx:if="{{show_hide}} " src="{{author_img}} " class="nrtximg "></image>
+        <text class="tc1 ">{{"日期： "+riqi}}</text>
+        <image src="{{post_img}} " class="nrimg "></image>
+        <text class="tc2 ">{{content}}</text>
+        <view class="yulanliang ">
+          <image class="xtb " src="/images/chat.png "></image>
+          <text class="post-like-font ">{{collect_num}}</text>
+          <image class="xtb " src="/images/view.png "></image>
+          <text class="post-like-font ">{{view_unm}}</text>
+        </view>
+      </view>
+    </view>
+</template>

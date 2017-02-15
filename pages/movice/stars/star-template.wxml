@@ -1,0 +1,15 @@
+<template name="starTemplate">
+  <view class="start-content">
+    <view class="starts">
+    <block wx:for="{{wuxing}}" wx:for-item="i" >
+      <image wx:if="{{i}}" src="/images/star.png"></image>
+      <image wx:else src="/images/chat.png"></image>
+  </block>
+      <!--<image src="/images/star.png"></image>
+      <image src="/images/star.png"></image>
+      <image src="/images/star.png"></image>
+      <image src="/images/star.png"></image>-->
+    </view>
+    <text class="start-score">{{average}}</text>
+  </view>
+</template>

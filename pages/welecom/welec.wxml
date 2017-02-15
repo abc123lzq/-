@@ -1,0 +1,7 @@
+<view class="container">
+    <image src='/images/bbshu.jpg' class="user-img" ></image>
+    <text class="user-name" style="color:red;">hello LZQ</text>
+    <view class="moto-content" bindtap="onTap">
+        <text class="moto">宝宝书</text>
+    </view>
+</view>

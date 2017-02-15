@@ -1,0 +1,23 @@
+.start-content{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10rpx;
+}
+.starts{
+    display: flex;
+    flex-direction: row;
+    height: 17rpx;
+    margin-right: 24rpx;
+    margin-top: 6rpx;
+}
+.starts image{
+    padding-left: 3rpx;
+    height: 17rpx;
+    width: 17rpx;
+    vertical-align: middle;
+}
+.start-score{
+    color: #1f3463;
+    vertical-align: middle;
+    font-size: 22rpx;
+}

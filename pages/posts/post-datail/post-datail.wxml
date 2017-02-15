@@ -1,0 +1,25 @@
+<view class="contenter">
+  <view class="top-top">
+    <image class="topimg" src="{{isplaymusci ?postData.music.coverImgUrl:postData.topimgs}}"></image>
+    <image catchtap="onmusictap" class="music-stop music" src="{{isplaymusci ? '/images/music-stop.png' : '/images/music-start.png'}}"></image>
+  </view>
+  <view class="top-content">
+    <image class="wjtx" src="/images/nrtx.jpg"></image>
+    <text>豆芽</text>
+    <text>发表于</text>
+    <text class="timeset">{{postData.timese}}</text>
+  </view>
+  <text class="title">{{postData.titles}}</text>
+  <view class="tool">
+    <view class="xuxian"></view>
+    <view class="xbt">
+      <image class="xtb2" wx:if="{{share}}" catchtap="onshareTap" src="/images/share.png"></image>
+      <image class="xtb2" wx:else catchtap="onshareTap" src="/images/share-anti.png"></image>
+      <image class="xtb1" wx:if="{{collected}}" catchtap="oncollTap" src="/images/collection.png"></image>
+      <image class="xtb1" wx:else catchtap="oncollTap" src="/images/collection-anti.png"></image>
+    </view>
+  </view>
+  <view class="footer-content">
+    <text>{{postData.jieshao}}</text>
+  </view>
+</view>

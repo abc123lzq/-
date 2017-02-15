@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-top {
+  position: relative;
+  height: 450rpx;
+}
+
+.topimg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -99;
+  height: 450rpx;
+}
+
+.music {
+  position: absolute;
+  width: 60rpx;
+  height: 66rpx;
+  top: 178rpx;
+  left: 50%;
+  margin-left: -30rpx;
+  z-index: 99;
+  opacity: 0.6;
+}
+
+.top-content {
+  flex-direction: row;
+  vertical-align: middle;
+  color: #8d8d8d;
+  font-size: 24rpx;
+  margin: 25rpx 0;
+}
+
+.top-content text {
+  margin-left: 20rpx;
+  vertical-align: middle;
+}
+
+.wjtx {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 2%;
+}
+
+.title {
+  font-size: 35rpx;
+  margin-left: 4%;
+  font-weight: bold;
+}
+
+.tool {
+  flex-direction: row;
+}
+
+.xuxian {
+  width: 100%;
+  height: 2rpx;
+  background-color: #b2b2b2;
+  z-index: -99;
+  margin-top: 20rpx;
+  vertical-align: middle;
+  position: relative;
+  top: 20px;
+}
+
+.xtb {
+  z-index: 100;
+  vertical-align: middle;
+}
+
+.xtb1 {
+  width: 80rpx;
+  height: 80rpx;
+  vertical-align: middle;
+  margin-right: 3%;
+  float: right;
+}
+
+.xtb2 {
+  width: 80rpx;
+  height: 80rpx;
+  vertical-align: middle;
+  margin-right: 5%;
+  float: right;
+}
+
+.footer-content {
+  font-size: 30rpx;
+  color: #666;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+  margin: 145rpx 30rpx 30rpx;
+}

@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/movice/movice",
+    "pages/posts/post",
+    "pages/welecom/welec",
+    "pages/posts/post-datail/post-datail",
+    "pages/movice/movice-more/movice-more",
+    "pages/movice/movie-grid/movie-grid-template",
+    "pages/movice/movie-detail/movie-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fdf605"
+  },
+  "tabBar": {
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/posts/post",
+        "text": "文章",
+        "iconPath":"/images/yuedu.png",
+        "selectedIconPath":"/images/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/movice/movice",
+        "text": "电影",
+        "iconPath":"/images/dianying.png",
+        "selectedIconPath":"/images/dianying_hl.png"
+      }
+    ]
+  }
+}
